@@ -1,5 +1,5 @@
 # movie-recommendation-system
-This C++ code is designed to recommend movie ratings to users based on their past ratings using Item-Based Collaborative Filtering (IBCF). The program involves several steps, from reading user ratings and test sets from files, calculating similarities between users, to predicting ratings for movies in a test set. Let's break down the code into its key components:
+The program is a basic implementation of an Item-Based Collaborative Filtering algorithm for predicting movie ratings. It involves reading user ratings, calculating similarities between users based on their ratings, predicting ratings for a test set of movies, and theoretically comparing these predicted ratings with original ratings to evaluate the system's accuracy. The similarity measures used in the prediction are ensured to be between 0 and 1, aligning with the mathematical constraints of cosine similarity. For a complete evaluation, one would compare the predicted ratings against original ratings to assess the prediction accuracy, which necessitates access to actual ratings data not explicitly covered in the provided code.
 
 Includes and Namespace:
 
